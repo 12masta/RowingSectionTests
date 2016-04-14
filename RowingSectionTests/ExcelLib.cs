@@ -25,7 +25,7 @@ namespace RowingSectionTests
             DataTableCollection table = result.Tables;
             //Store it in DataTable
             DataTable resultTable = table["Sheet1"];
-
+            
             //return
             return resultTable;
         }
