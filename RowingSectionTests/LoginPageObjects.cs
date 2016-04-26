@@ -24,6 +24,14 @@ namespace RowingSectionTests
         [FindsBy(How = How.XPath, Using = "//*[@id='loginForm']/form/div/div[4]/div/input")]
         public IWebElement btnLogin { get; set; }
 
+        [FindsBy(How = How.XPath, Using = "//*[@id='loginForm']/form/div/div[1]")]
+        public IWebElement msgError { get; set; }
+
+        public string ErrorMessage()
+        {
+            return msgError.Text;
+        }
+
         public HomePageObjects Login(string name, string password)
         {
             txtLogin.EnterText(name);

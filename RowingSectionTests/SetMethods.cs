@@ -23,7 +23,7 @@ namespace RowingSectionTests
             element.Click();
         }
 
-        ////clicks on button, checkbox, option
+        //clicks on button, checkbox, option
         public static void ActionsClicks(this IWebElement element)
         {
             Actions actions = new Actions(PropertiesCollection.driver);

@@ -80,6 +80,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContestAddPageObject.cs" />
+    <Compile Include="ContestConfirmDeletePageObjects.cs" />
+    <Compile Include="ContestListPageObjects.cs" />
     <Compile Include="ExcelLib.cs" />
     <Compile Include="GetMethods.cs" />
     <Compile Include="HomePageObjects.cs" />
